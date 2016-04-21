@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - hibernate@localhost" uuid="2b065b31-dfa7-4e41-9cc6-3f09e998ea50">
+    <database-info product="MySQL" version="5.7.11-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.5">
+      <schema id="1" name="hibernate"/>
+      <table id="2" parent="1" name="users"/>
+      <column id="3" parent="2" name="SID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="4" parent="2" name="USERNAME">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="5" parent="2" name="MYPASSWORD">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="6" parent="2" name="EMAIL">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="7" parent="2" name="GENDER">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="8" parent="2" name="INTRODUCE">
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="9" parent="2" name="BIRTHDAY">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="10" parent="2" name="PRIMARY">
+        <columns>SID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

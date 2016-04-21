@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d67d71f-1658-446c-8dcf-08a98c44f2d9" name="Default" comment="web可用">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/dom4j_1_6_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_commons_annotations_4_0_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_core_4_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jandex_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javassist_3_18_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javassist_3_18_1_GA1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jboss_logging_3_1_3_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jboss_logging_annotations_1_2_0_Beta1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jboss_transaction_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/HibernateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/util/HibernateUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/src.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/WebAndHibernateTest_Web_exploded/WEB-INF/classes/servlet/RegServlet.class" afterPath="$PROJECT_DIR$/out/artifacts/WebAndHibernateTest_Web_exploded/WEB-INF/classes/servlet/RegServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/servlet/RegServlet.class" afterPath="$PROJECT_DIR$/target/classes/servlet/RegServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebAndHibernateTest_Web_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebAndHibernateTest_Web_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebAndHibernateTest_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebAndHibernateTest_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WebAndHibernateTest_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WebAndHibernateTest_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" />
+    <list default="true" id="7d67d71f-1658-446c-8dcf-08a98c44f2d9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebAndHibernateTest.iml" afterPath="$PROJECT_DIR$/WebAndHibernateTest.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/servlet/RegServlet.java" afterPath="$PROJECT_DIR$/src/servlet/RegServlet.java" />
     </list>
     <ignored path="WebAndHibernateTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,8 +52,8 @@
       <file leaf-file-name="Session.class" pinned="false" current-in-tab="true">
         <entry file="jar://D:/5.下载/559e4c780001936300000000/hibernate-one2many/lib/hibernate-core-4.3.0.Final.jar!/org/hibernate/Session.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2140845">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5887324">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -783,7 +760,7 @@
       <created>1461228050439</created>
       <option name="number" value="Default" />
       <updated>1461228050439</updated>
-      <workItem from="1461228053343" duration="3952000" />
+      <workItem from="1461228053343" duration="4299000" />
     </task>
     <task id="LOCAL-00001" summary="version1">
       <created>1461230283140</created>
@@ -791,11 +768,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461230283140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="web与hibernate可相互配合使用">
+      <created>1461232039754</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1461232039754</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3952000" />
+    <option name="totallyTimeSpent" value="4299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -810,7 +793,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.4945055" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.4945055" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -858,13 +841,22 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51805335" sideWeight="0.4064838" order="3" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version1" />
     <MESSAGE value="web可用" />
-    <option name="LAST_COMMIT_MESSAGE" value="web可用" />
+    <MESSAGE value="web与hibernate可相互配合使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="web与hibernate可相互配合使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -994,8 +986,8 @@
     </entry>
     <entry file="jar://D:/5.下载/559e4c780001936300000000/hibernate-one2many/lib/hibernate-core-4.3.0.Final.jar!/org/hibernate/Session.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2140845">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5887324">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
