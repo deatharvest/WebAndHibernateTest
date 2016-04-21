@@ -14,6 +14,13 @@
         </sourceRoots>
       </configuration>
     </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -26,8 +33,18 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 7.0.27" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.27" level="application_server_libraries" />
     <orderEntry type="library" name="mysql-connector-java-5.1.38" level="project" />
+    <orderEntry type="library" name="hibernate-core-4.3.0.Final" level="project" />
     <orderEntry type="library" name="antlr-2.7.7" level="project" />
+    <orderEntry type="library" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" name="hibernate-commons-annotations-4.0.4.Final" level="project" />
+    <orderEntry type="library" name="hibernate-jpa-2.1-api-1.0.0.Final" level="project" />
+    <orderEntry type="library" name="jandex-1.1.0.Final" level="project" />
+    <orderEntry type="library" name="javassist-3.18.1-GA" level="project" />
+    <orderEntry type="library" name="javassist-3.18.1-GA1" level="project" />
+    <orderEntry type="library" name="jboss-logging-3.1.3.GA" level="project" />
+    <orderEntry type="library" name="jboss-logging-annotations-1.2.0.Beta1" level="project" />
+    <orderEntry type="library" name="jboss-transaction-api_1.2_spec-1.0.0.Final" level="project" />
   </component>
 </module>

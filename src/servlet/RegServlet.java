@@ -1,5 +1,9 @@
 package servlet;
 import entity.Users;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import util.HibernateUtil;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -42,6 +46,12 @@ public class RegServlet extends HttpServlet {
             u.setEmail(email);
             u.setIntroduce(introduce);
             u.setBirthday(birthday);
+
+            Session session = HibernateUtil.getSession();
+            Transaction tx = session.beginTransaction();
+            session.save(u);
+            tx.commit();
+            HibernateUtil.closeSession(session);
 
 
             //把注册成功的对象保存到session中
