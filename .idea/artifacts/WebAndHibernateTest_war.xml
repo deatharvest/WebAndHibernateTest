@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="WebAndHibernateTest:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="artifactid.war">
+      <element id="artifact" artifact-name="WebAndHibernateTest:war exploded" />
+    </root>
+  </artifact>
+</component>
